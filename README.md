@@ -6,9 +6,13 @@ Version: PHP 7.2 (You must set this version for test)
 
 ## Installation or setup
 1. You must set this version for test
-2. Set db name, db user, db password to .env
-3. php artisan migrate --seed
-4. php artisan serve
+2. Clone the repository with git clone
+3. Copy .env.example file to .env and edit database credentials there
+4. Run composer install or composer update
+5. Run php artisan key:generate
+6. Set db name, db user, db password to .env
+7. php artisan migrate --seed
+8. php artisan serve
 
 
 
